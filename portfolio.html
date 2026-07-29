@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - [Nama Kamu] | TKJ</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+        body { background: #f5f5f5; color: #333; }
+
+        header {
+            background: linear-gradient(135deg, #2563eb, #1e40af);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+        header img {
+            width: 120px; height: 120px; border-radius: 50%;
+            border: 4px solid white; margin-bottom: 15px;
+        }
+        header h1 { font-size: 2.2rem; }
+        header p { font-size: 1.1rem; opacity: 0.9; }
+
+        nav {
+            background: #1e3a8a;
+            padding: 12px;
+            text-align: center;
+            position: sticky; top: 0;
+        }
+        nav a { color: white; text-decoration: none; margin: 0 20px; font-weight: 500; }
+        nav a:hover { border-bottom: 2px solid white; }
+
+       .container { max-width: 1000px; margin: 40px auto; padding: 0 20px; }
+        section { background: white; padding: 30px; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        section h2 { color: #2563eb; margin-bottom: 15px; border-left: 4px solid #2563eb; padding-left: 10px; }
+
+       .skills { display: flex; flex-wrap: wrap; gap: 10px; }
+       .skill { background: #dbeafe; color: #1e40af; padding: 8px 15px; border-radius: 20px; font-weight: 500; }
+
+       .project { border: 1px solid #ddd; padding: 15px; border-radius: 8px; margin-bottom: 15px; }
+       .project h3 { color: #1e40af; }
+
+       .contact-btn {
+            display: inline-block; background: #25D366; color: white;
+            padding: 12px 25px; border-radius: 8px; text-decoration: none;
+            margin-top: 10px; font-weight: bold;
+        }
+       .contact-btn:hover { background: #1ebe5a; }
+
+        footer { background: #333; color: white; text-align: center; padding: 20px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="foto-kamu.jpg" alt="Foto Profil">
+        <h1>Muhammad Fernando Lorenzio</h1>
+        <p>Siswa TKJ | Network Engineer | IT Support</p>
+    </header>
+
+    <nav>
+        <a href="#about">Tentang</a>
+        <a href="#skills">Skill</a>
+        <a href="#project">Project</a>
+        <a href="#contact">Kontak</a>
+    </nav>
+
+    <div class="container">
+        <section id="about">
+            <h2>Tentang Saya</h2>
+            <p>Halo! Saya Muhammad Fernando Lorenzio siswa SMK jurusan TKJ dari SMK NEGERI 1 TANJUNGANOM.
+            Saya tertarik di bidang jaringan komputer, server, dan troubleshooting.
+            Tujuan saya menjadi [Network Engineer / IT Support] yang profesional.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skill & Sertifikat</h2>
+            <div class="skills">
+                <div class="skill">Mikrotik MTCNA</div>
+                <div class="skill">Cisco Packet Tracer</div>
+                <div class="skill">Linux Ubuntu & Server</div>
+                <div class="skill">Windows Server</div>
+                <div class="skill">Crimping Kabel LAN</div>
+                <div class="skill">Troubleshooting PC & Jaringan</div>
+            </div>
+        </section>
+
+        <section id="project">
+            <h2>Project / Pengalaman</h2>
+            <div class="project">
+                <h3>[Nama Project 1]</h3>
+                <p>Setting jaringan RT/RW Net di Ngronggot. Menggunakan Mikrotik + Access Point.
+                Hasil: 20 rumah terhubung internet stabil.</p>
+            </div>
+            <div class="project">
+                <h3>[Nama Project 2]</h3>
+                <p>Praktik membuat Server File Sharing menggunakan Linux Ubuntu Server di sekolah.</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Kontak Saya</h2>
+            <p>Email: fernandolorenzio55@gmail.com</p>
+            <p>No. HP: 0831-1315-9114</p>
+            <p>Alamat: Nganjuk, Jawa Timur</p>
+            <a href="https://wa.me/6283113159114" class="contact-btn" target="_blank">Hubungi via WhatsApp</a>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Muhammad Fernando Lorenzio. Dibuat dengan HTML & CSS</p>
+    </footer>
+
+</body>
+</html>
